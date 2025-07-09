@@ -1,6 +1,6 @@
 //https://leetcode.com/problems/rotate-string/description/
 
-class Solution17 {
+class Solution8 {
     public boolean rotateString(String s, String goal) {
         if(s.equals(goal)) return true;
         for(int i = 0; i < s.length() - 1; i++){
